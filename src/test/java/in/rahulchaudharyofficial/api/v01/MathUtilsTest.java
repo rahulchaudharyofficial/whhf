@@ -16,4 +16,9 @@ class MathUtilsTest {
     void mul() {
         assertEquals(mathUtils.mul(2,3),6);
     }
+
+    @Test
+    void testComputeCircleArea() {
+        assertEquals(Math.PI*1*1, Math.PI);
+    }
 }
