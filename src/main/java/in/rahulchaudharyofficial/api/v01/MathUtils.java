@@ -14,4 +14,12 @@ public class MathUtils {
          return  Math.PI * radios * radios;
     }
 
+    public double divide(double a, double b) {
+        return a/b;
+    }
+
+    public void winOs() {
+        System.out.println("My OS is "+ System.getProperty("os.version"));
+    }
+
 }
