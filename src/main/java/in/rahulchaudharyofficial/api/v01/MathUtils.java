@@ -21,5 +21,4 @@ public class MathUtils {
     public void winOs() {
         System.out.println("My OS is "+ System.getProperty("os.version"));
     }
-
 }
